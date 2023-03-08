@@ -7,7 +7,7 @@ For some common information use the command ```/function otc_player:.info/page_1
 If you have any other questions feel free to join the Minecraft Commands Discord and ask! (https://discord.gg/QAFXFtZ)
 
 # How it Works
-- When a player joins the world, they are given a unique id. This id is then used to link said player to an interaction entity. The interaction entity is given the same id as the player the summons it. 
+- When a player joins the world, they are given a unique id. This id is then used to link said player to an interaction entity. The interaction entity is given the same id as the player who summons it. 
 
 # Interaction Entity Outputs
 * the interaction entites have 4 different output possibilities
@@ -21,7 +21,7 @@ If you have any other questions feel free to join the Minecraft Commands Discord
 - **Attack (nonlinked entity):** This output is ran when the player with a different id attacks the interaction entity
 
 # Manually Assigning Id's 
-- This is usefull particuarly for mapmakers. You are able to manually assign/change the id of any player/interaction entity. 
+- This is useful, particularly for mapmakers. You are able to manually assign/change the id of any player/interaction entity. 
 
 - You can use the command ```/scoreboard players set @e[type=interaction,tag=otcInteraction,limit=1,sort=nearest] otcId <id_number>``` to change the id of the closest interaction entity
 
@@ -32,7 +32,7 @@ If you have any other questions feel free to join the Minecraft Commands Discord
 
 - **Interact (linked entity):** ```Player/data/otc_player/functions/interact/reward.mcfunction```
 
-- **Interact (nonlinked entity):** ```Player/data/otc_player/functions/right_click/error.mcfunction```
+- **Interact (nonlinked entity):** ```Player/data/otc_player/functions/interact/error.mcfunction```
 
 - **Attack (linked entity):** ```Player/data/otc_player/functions/attack/reward.mcfunction```
 
