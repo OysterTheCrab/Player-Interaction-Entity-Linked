@@ -1,5 +1,5 @@
-# Summons the interaction entity
-summon interaction ~ ~ ~ {width:1f,height:1f,response:1b,Tags:["otcInteract"]}
+# Sets the player's id to the current id
+scoreboard players operation $current otcInteract = @s otcInteract
 
-# Sets up the interaction entity
-function otc_player:init
+# Summons the interaction entity
+execute summon interaction otc_player:init
