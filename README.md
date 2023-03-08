@@ -7,7 +7,7 @@ For some common information use the command ```/function otc_player:.info/page_1
 If you have any other questions feel free to join the Minecraft Commands Discord and ask! (https://discord.gg/QAFXFtZ)
 
 # How it Works
-- When a player joins the world, they are given a unique id. This id is then used to link said player to an interaction entity. The interaction entity is given the same id as the player the summons it. 
+- When a player joins the world, they are given a unique id. This id is then used to link said player to an interaction entity. The interaction entity is given the same id as the player who summons it. 
 
 # Interaction Entity Outputs
 * the interaction entites have 4 different output possibilities
