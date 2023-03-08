@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {}
+        }
+      }
+    },
+    "rewards": {
+      "function": "otc_player:new_user"
+    }
+  }
+  
