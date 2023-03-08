@@ -2,7 +2,8 @@
  A map makers tool using the new interaction entity
 
 # Thanks for Using my Pack!
-For some common information use the command ```hs /function otc_player:.info/page_1" ```
+For some common information use the command ```hs 
+/function otc_player:.info/page_1" ```
 
 If you have any other questions feel free to join the Minecraft Commands Discord and ask! (https://discord.gg/QAFXFtZ)
 
