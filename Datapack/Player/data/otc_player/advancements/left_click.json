@@ -11,6 +11,6 @@
       }
     },
     "rewards": {
-      "function": "otc_player:left_click/interact"
+      "function": "otc_player:attack/interact"
     }
   }

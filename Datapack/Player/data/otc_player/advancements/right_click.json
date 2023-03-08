@@ -11,7 +11,7 @@
       }
     },
     "rewards": {
-      "function": "otc_player:right_click/interact"
+      "function": "otc_player:interact/interact"
     }
   }
   

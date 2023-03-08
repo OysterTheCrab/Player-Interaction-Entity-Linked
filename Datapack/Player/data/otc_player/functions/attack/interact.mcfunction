@@ -1,4 +1,4 @@
-advancement revoke @s only otc_player:right_click
+advancement revoke @s only otc_player:attack
 
 
 tag @s add otcInteracted
@@ -10,6 +10,6 @@ scoreboard players set $differs otcInteract 1
 data modify storage otc_interact:player UUID set from entity @s UUID
 
 # Runs as all interaction entities that have been interacted with, within 10 blocks
-execute as @e[type=interaction,nbt={interaction:{}},distance=..10] run function otc_player:right_click/check
+execute as @e[type=interaction,nbt={attack:{}},distance=..10] run function otc_player:attack/check
 
 tag @s remove otcInteracted
