@@ -12,13 +12,13 @@ If you have any other questions feel free to join the Minecraft Commands Discord
 # Interaction Entity Outputs
 * the interaction entites have 4 different output possibilities
 
-- **Right-click (linked entity):** This output is ran when the player with the same id right-clicks the interaction entity
+- **Interact (linked entity):** This output is ran when the player with the same id interacts with the interaction entity
 
-- **Right-click (nonlinked entity):** This output is ran when the player with a different id right-clicks the interaction entity
+- **Interact (nonlinked entity):** This output is ran when the player with a different id interacts with the interaction entity
 
-- **Left-click (linked entity):** This output is ran when the player with the same id left-clicks the interaction entity
+- **Attack (linked entity):** This output is ran when the player with the same id attacks the interaction entity
 
-- **Left-click (nonlinked entity):** This output is ran when the player with a different id right-clicks the interaction entity
+- **Attack (nonlinked entity):** This output is ran when the player with a different id attacks the interaction entity
 
 # Manually Assigning Id's 
 - This is usefull particuarly for mapmakers. You are able to manually assign/change the id of any player/interaction entity. 
@@ -30,13 +30,13 @@ If you have any other questions feel free to join the Minecraft Commands Discord
 # Modifying Output Events: 
 - You are able to change what happens during each of the output events by modifying the output's function in the datapack 
 
-- **Right-click (linked entity):** ```Player/data/otc_player/functions/right_click/reward.mcfunction```
+- **Interact (linked entity):** ```Player/data/otc_player/functions/interact/reward.mcfunction```
 
-- **Right-click (nonlinked entity):** ```Player/data/otc_player/functions/right_click/error.mcfunction```
+- **Interact (nonlinked entity):** ```Player/data/otc_player/functions/right_click/error.mcfunction```
 
-- **Left-click (linked entity):** ```Player/data/otc_player/functions/left_click/reward.mcfunction```
+- **Attack (linked entity):** ```Player/data/otc_player/functions/attack/reward.mcfunction```
 
-- **Left-click (nonlinked entity):** ```Player/data/otc_player/functions/left_click/error.mcfunction```
+- **Attack (nonlinked entity):** ```Player/data/otc_player/functions/attack/error.mcfunction```
 
 # Changing Interaction Entity Size:
 - In the default pack, the size of the interaction entities are set to 1x1. However, this can be changed.
