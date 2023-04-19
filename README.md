@@ -1,8 +1,9 @@
 # Player/Interaction Entity Linked
- A map makers tool using the new interaction entity
+ A map makers tool using the new interaction entity to easily make player specific interactable/attackables.
 
 # Thanks for Using my Pack!
 For some common information use the command ```/function otc_player:.info/page_1```
+The command syntax for all commands can be found/autofilled when using ```/function otc_player:.commands/...```
 
 If you have any other questions feel free to join the Minecraft Commands Discord and ask! (https://discord.gg/QAFXFtZ)
 
@@ -41,17 +42,17 @@ If you have any other questions feel free to join the Minecraft Commands Discord
 # Changing Interaction Entity Size:
 - In the default pack, the size of the interaction entities are set to 1x1. However, this can be changed.
 
-- To change the size of the entity you can modify the summon function in the datapack ```Player/data/otc_player/.summon.mcfunction```
+- To change the size of the entity you can modify the summon function in the datapack ```Player/data/otc_player/.commands/summon.mcfunction```
 
 - The variables you will want to modify in the function is the ```width:<size>f``` and the ```height:<size>f```
 
 # Removing Interaction Entities:
  - There are 4 different commands that can be ran to remove the entities of this pack
 
- - ```/function otc_player:.remove/closest``` | will remove the closest interaction entity
+ - ```/function otc_player:.commands/remove/closest``` | will remove the closest interaction entity
  
-- ```/function otc_player:.remove/closest_linked```| will remove the closest linked interaction entity
+- ```/function otc_player:.commands/remove/closest_linked```| will remove the closest linked interaction entity
 
-- ```/function otc_player:.remove/all``` | will remove the all interaction entities in this pack
+- ```/function otc_player:.commands/remove/all``` | will remove the all interaction entities in this pack
 
-- ```/function otc_player:.remove/all_linked``` | will remove all linked interaction entities
+- ```/function otc_player:.commands/remove/all_linked``` | will remove all linked interaction entities
