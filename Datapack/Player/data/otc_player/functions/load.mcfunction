@@ -1,2 +1,4 @@
-scoreboard objectives add otcInteract dummy
+#> otc_player:load
+# Main Load
 
+scoreboard objectives add otcInteract dummy

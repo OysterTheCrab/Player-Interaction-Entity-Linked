@@ -1,3 +1,6 @@
+#> otc_player:init
+#
+
 data merge entity @s {width:1f,height:1f,response:1b,Tags:["otcInteract"]}
 
 # Link the player and interaction entity
