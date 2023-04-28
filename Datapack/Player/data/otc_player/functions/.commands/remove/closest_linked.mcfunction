@@ -1,3 +1,6 @@
+#> otc_player:.commands/remove/closest_linked
+# Removes the closest linked interaction to the user
+
 # Sets the player's id to the current id
 scoreboard players operation $current otcInteract = @s otcInteract
 

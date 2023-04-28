@@ -1,3 +1,6 @@
+#> otc_player:.commands/remove/closest
+# Removes the closest interaction to the user
+
 # Stores the count of interaction entitys
 execute store result score $count otcInteract if entity @e[type=interaction,tag=otcId]
 

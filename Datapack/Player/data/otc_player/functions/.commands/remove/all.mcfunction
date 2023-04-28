@@ -1,3 +1,6 @@
+#> otc_player:.commands/remove/all
+# Removes all interactions 
+
 # Stores the count of interaction entitys
 execute store result score $count otcInteract if entity @e[type=interaction,tag=otcId]
 
