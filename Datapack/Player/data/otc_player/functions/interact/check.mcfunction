@@ -15,3 +15,6 @@ execute if score $differs otcInteract matches 0 at @s as @a[tag=otcInteract,limi
 
 # Removes the UUID from the interaction entity 
 data remove entity @s interaction
+
+say check
+

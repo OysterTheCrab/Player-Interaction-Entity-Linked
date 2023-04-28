@@ -1,0 +1,2 @@
+tag @s add otcModifyHeight
+tellraw @s ["",{"text":"Now modifying: "},{"text":"Height","color":"dark_aqua"},{"text":"\n\n"},{"text":"To modify the height, type your desired size\ninside the book. Hold the book in your hand,\nand click the button below.","italic":true},{"text":"\n\n"},{"text":"[","bold":true},{"text":" "},{"text":"Resize","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/function otc_player:.commands/resize/parse/main"}},{"text":" ] ","bold":true}]

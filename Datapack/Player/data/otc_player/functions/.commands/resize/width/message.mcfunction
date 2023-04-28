@@ -1,0 +1,2 @@
+tag @s add otcModifyWidth
+tellraw @s ["",{"text":"Now modifying: "},{"text":"Width","color":"gold"},{"text":"\n\n"},{"text":"To modify the width, type your desired size\ninside the book. Hold the book in your hand,\nand click the button below.","italic":true},{"text":"\n\n"},{"text":"[","bold":true},{"text":" "},{"text":"Resize","color":"gold","clickEvent":{"action":"run_command","value":"/function otc_player:.commands/resize/parse/main"}},{"text":" ] ","bold":true}]

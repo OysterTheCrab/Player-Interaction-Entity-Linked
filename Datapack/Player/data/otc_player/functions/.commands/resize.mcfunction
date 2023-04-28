@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"Would You Like to Modify The","color":"yellow"},{"text":"\n\n"},{"text":"[","bold":true},{"text":" "},{"text":"Width","color":"gold","clickEvent":{"action":"run_command","value":"/function otc_player:.commands/resize/width/message"}},{"text":" ]","bold":true},{"text":" or the","color":"yellow"},{"text":" [","bold":true},{"text":" "},{"text":"Height","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/function otc_player:.commands/resize/height/message"}},{"text":" "},{"text":"]","bold":true}]
+give @s writable_book

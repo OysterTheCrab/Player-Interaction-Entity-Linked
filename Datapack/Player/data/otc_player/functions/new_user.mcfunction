@@ -2,5 +2,8 @@ tellraw @s ["",{"text":"Hello! Thank you for using my "},{"text":"Player/Interac
 tag @s add otcUser
 
 # Assigns an id to the player if they do not already have one
-execute as @a[tag=!otcId] run function otc_player:id
+execute as @s[tag=!otcId] run function otc_player:id
 
+execute if score @s otcInteract matches 1 run function otc_player:admin/assign_admin
+
+function otc_player:.commands/command_book

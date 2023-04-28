@@ -1,7 +1,7 @@
 advancement revoke @s only otc_player:attack
 
 
-tag @s add otcInteracted
+tag @s add otcInteract
 
 # Sets up the interaction check system
 scoreboard players set $differs otcInteract 1
@@ -12,4 +12,4 @@ data modify storage otc_interact:player UUID set from entity @s UUID
 # Runs as all interaction entities that have been interacted with, within 10 blocks
 execute as @e[type=interaction,nbt={attack:{}},distance=..10] run function otc_player:attack/check
 
-tag @s remove otcInteracted
+tag @s remove otcInteract

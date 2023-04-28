@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"otcAdmin\"]}",
+            "flags": {
+              "is_sneaking": true
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "otc_player:admin/get_info"
+    }
+  }
+  
