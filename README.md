@@ -46,6 +46,8 @@ If you have any other questions feel free to join the Minecraft Commands Discord
 
 - The variables you will want to modify in the function is the ```width:<size>f``` and the ```height:<size>f```
 
+- You can also use the `resize` command to modify the size of the closest Interaction to you
+
 # Removing Interaction Entities:
  - There are 4 different commands that can be ran to remove the entities of this pack
 
